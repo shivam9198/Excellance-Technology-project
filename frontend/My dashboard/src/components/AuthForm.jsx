@@ -6,8 +6,8 @@ import baseurl from "../utils/baseurl";
 const AuthForm = () => {
   const [isRegister, setIsRegister] = useState(false);
   const [formData, setFormData] = useState({
-    email: "alex9198@gmail.com",
-    password: "Bangtk@9198",
+    email: "",
+    password: "",
     username: "",
   });
   const [error, setError] = useState("");
